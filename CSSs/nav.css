@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Kaushan+Script&family=Spectral:wght@300&display=swap');
+
+.box-header .navbar-brand {
+    font-family: 'Charm', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item a {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.dropdown-menu .btn-cerrar:hover {
+    color: azure;
+    transition: .3s ease-in-out;
+    background-color:rgb(237, 71, 71);
+}
+
+.dropdown-menu .btn-primary:hover {
+    color: azure;
+    transition: .3s ease-in-out;
+    background-color:rgb(65, 120, 210);
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+    background-color: rgba(20, 120, 135, 0.466);
+    color: white;
+    font-weight: bolder;
+}
+
+
+@media screen and (max-width:660px) {
+
+}
+
+
+@media screen and (max-width:420px){
+
+}

@@ -1,0 +1,44 @@
+
+/* Estilos del footer */
+footer {
+background-color: var(--primary-color-dark);
+padding: 40px 0;
+color: var(--text-color-lightest);
+}
+
+footer h4 {
+font-size: 24px;
+margin-bottom: 20px;
+color: var(--text-color-lightest);
+}
+
+footer p {
+margin-bottom: 10px;
+}
+
+.footer-address i,
+.footer-email i,
+.footer-phone i {
+margin-right: 10px;
+}
+
+.footer-links-page a {
+color: var(--text-color-lightest);
+transition: var(--tran-03);
+}
+
+.footer-social-icons li {
+display: inline-block;
+margin-right: 10px;
+}
+
+.footer-social-icons a {
+color: var(--text-color-lightest);
+transition: var(--tran-03);
+}
+
+.footer-social-icons a:hover {
+color: var(--primary-color-light);
+}
+
+

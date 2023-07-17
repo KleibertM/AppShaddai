@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Kaushan+Script&family=Spectral:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.link-chat {
+    background-color: rgb(44, 169, 13);
+    position: fixed;
+    z-index: 9999;
+    border-radius: 50%;
+    bottom: 20px;
+    right: 30px;
+    box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.2);
+
+}
+
+.link-chat:hover{
+    background-color: rgb(16, 73, 2);
+    transition: all 0.2s ease-in-out;
+    box-shadow: 50px 20px 50px rgba(0, 0, 0, 0.2);
+}
+.link-chat a {
+    text-decoration: none;
+    color: aliceblue;
+}
+.link-chat .bx {
+    font-size: 4rem;
+}
+.carousel .carousel-caption{
+    position: absolute;
+    background: rgba(183, 244, 239, 0.3);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1.5px solid rgba(28, 29, 29, 0.3);
+    width: 10%;
+    height: 20px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel .carousel-caption:hover{
+    background: rgba(0, 0, 0, 0.3);
+    transition: all 0.2s ease-in-out;
+
+}
+.carousel .carousel-caption a{
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(4, 4, 4);
+    line-height: 20px;
+
+}
+.carousel .carousel-caption a:hover{
+    color: white;
+}
+
+.main-header {
+    position: relative;
+    margin: 2rem;
+    background: rgba(183, 244, 239, 0.3);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1.5px solid rgba(209, 213, 219, 0.3);
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.book-hot .card:hover{
+    transition: all 0.2s ease-in-out;
+    border: rgb(11, 78, 137) 5px outset
+}
+
+.box-items-2{
+    position: relative;
+    margin: 10px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+.box-items-2 .d-flex{
+    text-transform: uppercase;
+    border-radius: 10px;
+
+}
+
+
+.box-map {
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+    background: rgba(183, 244, 239, 0.3);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1.5px solid rgba(209, 213, 219, 0.3);
+    border-radius: 20px;
+}
+.box-map .card  {
+    background-color: #cdf3b9;
+}
+.box-map .img-acorr {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+
+.main-header  {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.items .box-book {
+    width: 275px;
+    height: auto;
+    box-shadow: 0 2px 2px rgba(8, 8, 8, 0.2);
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    float: left;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: white;
+}
+
+.items .box-book:hover {
+    transform: translate(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.items .box-book img {
+    width: 95%;
+    border-radius: 15px;
+    justify-content: center;
+    padding: 5px;
+}
+
+.book-info {
+    padding: 10px;
+    color: var(--text-color);
+}
+
+h3,
+p {
+    margin: 0;
+}
+
+.book-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.book-author {
+    font-size: 14px;
+    color: #666;
+}
+
+.book-price {
+    font-size: 16px;
+    color: #008000;
+    font-weight: bold;
+}
+.cant-select {
+width: 25%;
+border: none;
+font-weight: bold;
+}
+.btn-buy{
+    margin: 5px;
+    
+}
+.btn-buy .a-buy {
+    background-color: rgb(112, 182, 7);
+    width: 90%;
+    color: white;
+    border-radius: 40px;
+    border:  none;
+    text-transform: uppercase;
+}
+.btn-buy .a-buy:hover{
+    background-color: #008000;
+}
+
+@media screen and (max-width:660px) {
+    ul {
+        flex-direction: column;
+    }
+}
+.navbar {
+    height: 60px;
+}
+
+.box-card .card {
+    border-radius: 20px;
+}
+.box-card .row {
+    padding: 1rem;
+}
+
+.books {
+    margin: 1rem;
+    background: rgba(183, 244, 239, 0.3);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1.5px solid rgba(209, 213, 219, 0.3);
+    border-radius: 20px;
+    padding: 1rem;
+}
+.box-map .card iframe {
+    width: 100%;
+}
+footer {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    background: rgba(149, 55, 212, 0.3);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: 1.5px solid rgba(209, 213, 219, 0.3);
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+footer .col-md-4 a{
+    text-decoration: none;
+    color: black;
+}
+
+footer .col-md-4 a .maps {
+    color: red;
+}
+
+@media screen and (max-width:420px){
+
+    .box-map .card iframe {
+        width: 100%;
+    }
+    .row .card-group {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+}
